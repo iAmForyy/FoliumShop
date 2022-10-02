@@ -27,6 +27,7 @@ public class FoliumShop
         this.inventoryHandler = new InventoryHandler();
         this.shopInventory = new ShopInventory();
         this.editInventory = new EditInventory();
+        commandHandler();
         eventHandler(
                 new PlayerQuitListener(),
                 new InventoryClickListener()
